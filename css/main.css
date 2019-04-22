@@ -3,20 +3,21 @@ body,html{
     margin:0 auto;
 }   
 .link{
-    color: cadetblue;
+    color: #36648B;
     padding: 10px 20px;
 }
 .link:hover{
     background: yellow;
     
 }
-.section1{
-    background:url(../img/BNI.jpg);
+.Porch{
+    background:url(../img/Dark-City-Background.jpg);
     width: 100%;
-    height: 100%;
+    height:100%;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 130px;
 }
 .judul1{
     font-family: Bebas Neue;
@@ -31,19 +32,24 @@ body,html{
     margin: auto
 }
 .sub-judul{
-    font-family: calibri;
-    font-size: 30px;
+    font-family: century gothic;
+    font-size: 25px;
     color:brown;
     margin:auto
 }
 .sub-judul2{
-    font-family: calibri;
+    font-family: century gothic;
     font-size: 30px;
     color: #f1d44e ;
-    margin:auto
+    margin: center;
+    padding: 10px 20px
+}
+.container2{
+     background: #36648B ;
+    color: firebrick
 }
 .section2{
-    background: green ;
+    background: #305f75 ;
     padding: 200px 0px;
     color: firebrick
 } 
@@ -51,16 +57,24 @@ body,html{
     background: white ;
     padding: 200px 0px;
     color: firebrick
+}
+.section4{
+    background: #173761 ;
+    padding: 200px 0px;
+    color: firebrick
 } 
 .col-warna
-{background: red;
+{background: #1a5276 ;
         font-size: 30px;
 }
 .col-warna2
-{background: yellow;
+{background: #154360 ;
         font-size: 30px;
 }
 .col-warna3
-{background: green;
+{background: #1f618d ;
         font-size: 30px;
+}
+.::after, ::before 
+{box-sizing: border-box;
 }
